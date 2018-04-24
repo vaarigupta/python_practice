@@ -1,0 +1,25 @@
+list1 = [ 1, 5,8,9 ,'HELLO', 'm']
+print(list1)
+
+tuple1 = ( 1, 2,5,'n','mango')
+print (tuple1)
+print(list1[0],list1[5],list1[-2],list1[-4],list1[3],list1[1])
+print (tuple1[0],tuple1[2],tuple1[-1],tuple1[-2],tuple1[-3])
+print(type(list1))
+print(type(tuple1))
+
+dict1 = { 'k1' : "vaari", 'k2' : " raavi" , 'k3' : " abhishek", 'k4' : " anshul", 'k5' : "sudhanshu" , 'k6' : "rehan", 'k7' : "weds" }
+print ( dict1 ['k1'],dict1 ['k7'] , dict1 ['k3'])
+print ( dict1 [ 'k2'] , dict1 ['k7'], dict1['k6'])
+print ( dict1 ['k1'], dict1['k7'], dict1['k4'])
+print ( dict1['k2'], dict1['k7'], dict1['k5'])
+print ( list1[0])
+print ( list1[-1])
+print ( list1[-2])
+print ( list1[-3])
+print ( list1[-4])
+print ( type (tuple1[-1]))
+print ( tuple1[-3])
+print ( type(tuple1[-3]))
+print ( tuple1[0])
+print ( tuple1[-1])
